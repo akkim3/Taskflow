@@ -27,9 +27,9 @@ class ViewController: UIViewController {
        var gradientLayer = CAGradientLayer()
         
         gradientLayer.frame = button.layer.bounds
-          gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+          gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
-        gradientLayer.colors = [UIColor(red:0.90, green:0.22, blue:0.21, alpha:1.0).cgColor, UIColor(red:0.89, green:0.36, blue:0.36, alpha:1.0).cgColor]
+        gradientLayer.colors = [UIColor(red:1.00, green:0.37, blue:0.43, alpha:1.0).cgColor, UIColor(red:1.00, green:0.76, blue:0.44, alpha:1.0).cgColor]
         button.setImage(UIImage(named: "Timer"), for: UIControlState.normal)
         
         button.layer.insertSublayer(gradientLayer, below: button.imageView?.layer)

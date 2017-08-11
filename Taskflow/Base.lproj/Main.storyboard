@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Taskflow" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,14 +22,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="qmt-dY-Chd"/>
+                    <tabBarItem key="tabBarItem" title="" image="Todo" id="qmt-dY-Chd">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="EPM-tF-hBP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1454" y="-1478"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="igs-HM-Hf8">
             <objects>
                 <viewController id="bfi-eJ-DYj" sceneMemberID="viewController">
@@ -42,14 +44,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="S0A-kW-x0m"/>
+                    <tabBarItem key="tabBarItem" title="" image="Feed" id="S0A-kW-x0m">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="II5-Fi-B77"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t18-lg-Kdn" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1454" y="-832"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="LBP-EE-YPJ">
             <objects>
                 <viewController id="YAI-CD-Ka4" sceneMemberID="viewController">
@@ -62,14 +66,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Fu1-lP-3jG"/>
+                    <tabBarItem key="tabBarItem" title="" image="Settings" id="Fu1-lP-3jG">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="axl-Cj-pBR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vg9-0o-Fk1" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1454" y="1210"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="D7D-Tp-Tyz">
             <objects>
                 <viewController id="tPX-0a-LAK" sceneMemberID="viewController">
@@ -82,7 +88,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9Mr-1n-gpi"/>
+                    <tabBarItem key="tabBarItem" title="" image="Stat " id="9Mr-1n-gpi">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="wzD-Mj-xCx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="exs-V8-Jte" sceneMemberID="firstResponder"/>
@@ -102,7 +110,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" enabled="NO" title="" id="bCQ-EW-qIz"/>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="" id="bCQ-EW-qIz">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="Pmb-Ld-6zu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PGF-Yr-taU" sceneMemberID="firstResponder"/>
@@ -127,13 +137,14 @@
             </objects>
             <point key="canvasLocation" x="-97" y="107"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Taskflow-->
         <scene sceneID="148-a6-kSM">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hkb-CO-Vla" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="7BB-ql-WKe"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="6mh-fb-39j">
+                    <navigationItem key="navigationItem" title="Taskflow" id="7BB-ql-WKe"/>
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" id="6mh-fb-39j">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -150,4 +161,11 @@
             <point key="canvasLocation" x="639" y="107"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Feed" width="25" height="25"/>
+        <image name="Settings" width="25" height="25"/>
+        <image name="Stat " width="25" height="25"/>
+        <image name="Todo" width="32" height="32"/>
+    </resources>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
