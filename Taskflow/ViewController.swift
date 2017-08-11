@@ -9,16 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    override func viewDidLoad() {
+    let button = UIButton(type: .custom)
+        override func viewDidLoad() {
+            let window:UIWindow =  UIApplication.shared.delegate!.window!!
+
         super.viewDidLoad()
-        
+        UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity:  10, options: .curveEaseInOut, animations: {
+            self.button.frame = CGRect(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.minY)!, width: 64, height: 64)
+            self.button.center = CGPoint(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.maxY)! - 40.0)
+            self.button.alpha = 0.0
+        }, completion: nil)
+
         //createButton()
                // Do any additional setup after loading the view, typically from a nib.
     }
     func createButton(){
         let window:UIWindow =  UIApplication.shared.delegate!.window!!
-        let button = UIButton(type: .custom)
+        
         button.frame = CGRect(x: window.bounds.midX, y: (100.0), width: 64, height: 64)
         button.center = CGPoint(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.maxY)! + 40.0)
         button.layer.cornerRadius = 0.5 * button.bounds.size.width
@@ -48,9 +55,9 @@ class ViewController: UIViewController {
         
         */
         
-        UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity:  10, options: .curveEaseInOut, animations: { 
-            button.frame = CGRect(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.minY)!, width: 64, height: 64)
-            button.center = CGPoint(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.maxY)! - 40.0)
+        UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity:  10, options: .curveEaseInOut, animations: {
+            self.button.frame = CGRect(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.minY)!, width: 64, height: 64)
+            self.button.center = CGPoint(x: window.bounds.midX, y: (self.tabBarController?.view.bounds.maxY)! - 40.0)
         }, completion: nil)
     }
     
