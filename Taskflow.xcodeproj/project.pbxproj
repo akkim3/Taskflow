@@ -15,6 +15,7 @@
 		E9124A321F38D48D0049DA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9124A301F38D48D0049DA87 /* LaunchScreen.storyboard */; };
 		E9124A3D1F38D48D0049DA87 /* TaskflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9124A3C1F38D48D0049DA87 /* TaskflowTests.swift */; };
 		E9124A481F38D48D0049DA87 /* TaskflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9124A471F38D48D0049DA87 /* TaskflowUITests.swift */; };
+		E9ADA8B61F3E3DCD00A3599D /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ADA8B51F3E3CA600A3599D /* Yellowtail-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E9124A431F38D48D0049DA87 /* TaskflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9124A471F38D48D0049DA87 /* TaskflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskflowUITests.swift; sourceTree = "<group>"; };
 		E9124A491F38D48D0049DA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ADA8B51F3E3CA600A3599D /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "../../../Downloads/Yellowtail/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E9124A2E1F38D48D0049DA87 /* Assets.xcassets */,
 				E9124A301F38D48D0049DA87 /* LaunchScreen.storyboard */,
 				E9124A331F38D48D0049DA87 /* Info.plist */,
+				E9ADA8B51F3E3CA600A3599D /* Yellowtail-Regular.ttf */,
 			);
 			path = Taskflow;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9ADA8B61F3E3DCD00A3599D /* Yellowtail-Regular.ttf in Resources */,
 				E9124A321F38D48D0049DA87 /* LaunchScreen.storyboard in Resources */,
 				E9124A2F1F38D48D0049DA87 /* Assets.xcassets in Resources */,
 				E9124A2D1F38D48D0049DA87 /* Main.storyboard in Resources */,

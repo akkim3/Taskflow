@@ -124,9 +124,13 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6bV-oa-Vy4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rRp-Io-kjk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="rRp-Io-kjk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Yellowtail" family="Yellowtail" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.37254901960784315" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
